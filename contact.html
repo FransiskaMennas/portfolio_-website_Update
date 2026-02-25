@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mennas Fransiska</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li><a href="index.html" style="font-weight: bold; color: #f48fb1;">Home</a></li>
+            <li><a href="about.html" style="font-weight: bold; color: #f48fb1;">About</a></li>
+            <li><a href="skills.html" style="font-weight: bold; color: #f48fb1;">Skills</a></li>
+            <li><a href="projects.html" style="font-weight: bold; color: #f48fb1;">Projects</a></li>
+            <li><a href="contact.html" style="font-weight: bold; color: #f48fb1;">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero-split">
+        <div class="hero-left">
+            <div class="contact-info">
+                <h1>Get in Touch</h1>
+                <p>I'm available for freelance work or full-time positions. Let's build something amazing together!</p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <strong>Email:</strong>
+                        <p>framennas@gmail.com</p>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Cellphone:</strong>
+                        <p>+264 817017152</p> </div>
+                    <div class="detail-item">
+                        <strong>Location:</strong>
+                        <p>Windhoek, Namibia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <form action="https://formspree.io/f/xwvnqdop" method="POST" class="contact-form" autocomplete="off">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="Enter your name" required autocomplete="off">
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" name="_replyto" placeholder="Enter your email" required autocomplete="off">
+                </div>
+
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message" rows="5" placeholder="How can I help you?" required autocomplete="off"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark w-100">Send Message</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="page-navigation">
+        <a href="projects.html" class="nav-btn prev-btn">← Projects</a>
+        <a href="index.html" class="nav-btn next-btn">Home →</a>
+    </div>
+
+</body>
+</html>
