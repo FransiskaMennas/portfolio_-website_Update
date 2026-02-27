@@ -333,7 +333,7 @@ nav ul li a:hover {
     color: #e8c4dc;
 }
 
-/* --- 8. CONTACT FORM --- */
+/*  8. CONTACT FORM  */
 .contact-info {
     color: #f5e6f0;
 }
@@ -450,7 +450,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-/* --- PROJECTS PAGE (FIGMA STYLE) --- */
+/* PROJECTS PAGE (FIGMA STYLE) */
 
 .projects-container {
     display: flex;
@@ -549,11 +549,11 @@ nav ul li a:hover {
 }
 
 
-/* ========================================
+/*
    INTERACTIVE JAVASCRIPT STYLES
-   ======================================== */
+   */
 
-/* --- FADE IN ANIMATIONS --- */
+/* FADE IN ANIMATIONS*/
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
@@ -645,7 +645,7 @@ nav ul li a:hover {
     transform: translateY(-8px) scale(1.02);
 }
 
-/* --- SKILL ICONS --- */
+/* SKILL ICONS  */
 .skill-icon {
     width: 55px;
     height: 55px;
@@ -714,7 +714,7 @@ nav ul li a:hover {
     box-shadow: 0 10px 35px rgba(244, 143, 177, 0.7);
 }
 
-/* --- MOBILE NAVIGATION --- */
+/* MOBILE NAVIGATION */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -805,7 +805,7 @@ nav ul li a:hover {
     height: 300px;
 }
 
-/* --- SMOOTH TRANSITIONS --- */
+/* SMOOTH TRANSITIONS  */
 * {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -814,7 +814,7 @@ a, button, input, textarea {
     transition: all 0.3s ease;
 }
 
-/* --- LOADING ANIMATION FOR IMAGES --- */
+/* LOADING ANIMATION FOR IMAGES  */
 img {
     opacity: 1;
     animation: fadeInImage 0.8s ease forwards;
@@ -831,7 +831,7 @@ img {
     }
 }
 
-/* --- CARD ENTRANCE ANIMATIONS --- */
+/* CARD ENTRANCE ANIMATIONS */
 .skill-card, .project-card {
     animation: slideUp 0.6s ease forwards;
 }
@@ -852,7 +852,7 @@ img {
     }
 }
 
-/* --- ENHANCED FORM STYLES --- */
+/* ENHANCED FORM STYLES  */
 .contact-form {
     animation: fadeIn 0.8s ease;
 }
@@ -914,9 +914,9 @@ nav ul li a:hover::after {
 }
 
 
-/* ========================================
-   EXTRA EYE-CATCHING EFFECTS
-   ======================================== */
+/* 
+   EXTRA EYE-CATCHING EFFECT
+*/
 
 /* Animated gradient background particles */
 @keyframes float-particles {
@@ -1099,9 +1099,9 @@ button[type="submit"]:hover {
 }
 
 
-/* ========================================
+/* 
    PAGE NAVIGATION BUTTONS
-   ======================================== */
+   */
 
 .page-navigation {
     display: flex;
@@ -1190,3 +1190,4 @@ button[type="submit"]:hover {
         transform: translateY(-3px);
     }
 }
+
